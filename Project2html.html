@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>
+Blood Donation Survey
+</title>
+<link href="FCCProject2css.css" rel="stylesheet" type="text/css"> <!-- Links the attached css file to this html file -->
+</head>
+    <body>
+    <div id="top">
+    <form id="survey-form" action="/my-handling-form-page" method="post">
+      <h1 id="title">Blood Donation Survey Form</h1>      
+      <main>      
+       <u> <legend>Basic Information</legend><br></u>
+        <div>
+          <label id="name-label" for="name" class="q">Name:</label><br>
+          <input type="text" required id="name" name="user_name" placeholder="Enter your first, last name">   </div>
+        <div>
+            <div><br>
+                <label for="age" class="q">Age: </label><br>
+                <input type="number" required id="age" name="age" placeholder="    Age" min="18" max="99"> 
+           </div><br>
+        <div>
+          <label id="email-label" for="Email" class="q">Email:</label><br>
+          <input type="email" required id="email" name="user_email" placeholder="Enter a valid email address"></div><br>
+        <div>
+            <label for="phone-label" class="q">Phone Number:</label><br>
+            <input type="Phone" id="number" name="Phone#" placeholder="Enter a valid 10 digit number"></div>
+        <br>
+        <div>
+          <label for="Gender" class="q">Gender: </label><br>
+          <p>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+          </p>
+        </div><br>     
+        <div>
+            <label for="gender" class="q">Have you donated blood?</label>
+            <p>
+              <input type="radio" name="gender" value="yes" checked> Yes
+              <input type="radio" name="gender" value="no"> No 
+            </p>
+        </div>
+
+
+        <label for="freqyear" class="q"> If so, how many times in the last 2 years?</label>
+        <p>
+          <input type="checkbox" name="freqyear" value="0">0
+          <input type="checkbox" name="freqyear" value="1">1
+          <input type="checkbox" name="freqyear" value="2-3">2-3
+          <input type="checkbox" name="freqyear" value="4+">4+
+        </p>
+   
+
+      <div>
+        <label for="gender" class="q">Have you donated blood?</label>
+        <p>
+          <input type="radio" name="gender" value="yes" checked> Yes
+          <input type="radio" name="gender" value="no"> No 
+        </p>
+    </div>
+      <div>
+        <label for="msg"></label>
+        <p class="q"> Why did you or do you wish to donate blood?</p>
+        <textarea id="msg" name="user_message" rows="0" cols="0" placeholder="Start Typing Here:"></textarea>   
+    </div>
+          <div>
+            <div>
+                <label for="msg"></label>
+                <p class="q">Any comments/concerns on blood donation?</p>
+                <textarea id="msg" name="user_message" rows="0" cols="0" placeholder="Start Typing Here:"></textarea>   
+            </div>
+        </div>
+        <br><br>
+          
+      <div id="submitbutton">
+        <button type="submit" id="submit">Count me in! </button></div>
+    </form>
+      </div>
+    </main>
+    </body>
+</html>

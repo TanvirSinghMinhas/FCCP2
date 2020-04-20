@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap'); /* Imports font */
+
+body{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient( white, pink, red); /* Creates a background gradient */
+
+}header{
+    background-color: white;
+    border-bottom: solid;
+}
+
+
+
+
