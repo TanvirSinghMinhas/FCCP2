@@ -1,2 +1,1 @@
-# FCCP2
-HTML, CSS code for Project 2
+SSimple survey for freeCodeCamp project 2.
